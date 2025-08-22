@@ -99,6 +99,15 @@ yarn
 yarn run serve
 ```
 
+打包dist：
+npm run build #build一个dist
+
+npm install -g serve
+cd dist
+serve -l tcp://0.0.0.0:5000
+
+公网的5000端口就能访问了
+
 [manifest.xml](https://github.com/Kuingsmile/word-GPT-Plus/blob/master/release/self-hosted/manifest.xml)
 
 ### 方案三：docker运行
@@ -156,3 +165,4 @@ MIT License
 ## 请给个 ⭐️ 吧
 
 如果这个项目帮助到了你，请给个 ⭐️ 吧！
+
